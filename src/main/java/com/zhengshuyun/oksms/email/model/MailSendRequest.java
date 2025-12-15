@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.email.model;
+package com.zhengshuyun.oksms.email.model;
 
 import java.io.File;
 import java.util.List;

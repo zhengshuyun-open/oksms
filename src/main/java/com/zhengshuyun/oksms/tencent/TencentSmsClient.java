@@ -1,4 +1,4 @@
-//package cn.toint.oksms.tencent;
+//package com.zhengshuyun.oksms.tencent;
 //
 //public class TencentSmsClient {
 //    public TencentSmsClient() {

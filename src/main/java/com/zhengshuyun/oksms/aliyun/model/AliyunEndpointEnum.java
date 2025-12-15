@@ -14,30 +14,29 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.email.model;
+package com.zhengshuyun.oksms.aliyun.model;
 
-import java.util.Objects;
+/**
+ * 阿里云短信域名
+ */
+public enum AliyunEndpointEnum {
+    /**
+     * 国内
+     */
+    CHINA("dysmsapi.aliyuncs.com"),
 
-public class MailSendResponse {
-    private String msgId;
+    /**
+     * 国际
+     */
+    INTERNATIONAL("dysmsapi.ap-southeast-1.aliyuncs.com");
 
-    @Override
-    public boolean equals(Object object) {
-        if (object == null || getClass() != object.getClass()) return false;
-        MailSendResponse that = (MailSendResponse) object;
-        return Objects.equals(msgId, that.msgId);
+    private final String value;
+
+    AliyunEndpointEnum(String value) {
+        this.value = value;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hashCode(msgId);
-    }
-
-    public String getMsgId() {
-        return msgId;
-    }
-
-    public void setMsgId(String msgId) {
-        this.msgId = msgId;
+    public String getValue() {
+        return value;
     }
 }

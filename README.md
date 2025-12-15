@@ -4,7 +4,7 @@
 
 ```xml
 <dependency>
-    <groupId>cn.toint</groupId>
+    <groupId>com.zhengshuyun</groupId>
     <artifactId>oksms</artifactId>
     <version>${version}</version>
 </dependency>

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms;
+package com.zhengshuyun.oksms;
 
-import cn.toint.oksms.aliyun.AliyunSmsClient;
-import cn.toint.oksms.aliyun.model.AliyunSmsClientConfig;
-import cn.toint.oksms.aliyun.model.AliyunSmsSendRequest;
-import cn.toint.oksms.aliyun.model.AliyunSmsSendResponse;
-import cn.toint.oksms.email.MailClient;
-import cn.toint.oksms.email.model.MailClientConfig;
-import cn.toint.oksms.email.model.MailSendRequest;
-import cn.toint.oksms.email.model.MailSendResponse;
-import cn.toint.oksms.util.SmsUtil;
+import com.zhengshuyun.oksms.aliyun.AliyunSmsClient;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsClientConfig;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsSendRequest;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsSendResponse;
+import com.zhengshuyun.oksms.email.MailClient;
+import com.zhengshuyun.oksms.email.model.MailClientConfig;
+import com.zhengshuyun.oksms.email.model.MailSendRequest;
+import com.zhengshuyun.oksms.email.model.MailSendResponse;
+import com.zhengshuyun.oksms.util.SmsUtil;
 import com.zhengshuyun.oktool.core.util.JacksonUtil;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

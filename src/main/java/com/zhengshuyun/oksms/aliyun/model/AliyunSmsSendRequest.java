@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.aliyun.model;
+package com.zhengshuyun.oksms.aliyun.model;
 
 import java.util.List;
 import java.util.Map;

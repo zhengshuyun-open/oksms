@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.email;
+package com.zhengshuyun.oksms.email;
 
-import cn.toint.oksms.email.model.MailClientConfig;
-import cn.toint.oksms.email.model.MailSendRequest;
-import cn.toint.oksms.email.model.MailSendResponse;
+import com.zhengshuyun.oksms.email.model.MailClientConfig;
+import com.zhengshuyun.oksms.email.model.MailSendRequest;
+import com.zhengshuyun.oksms.email.model.MailSendResponse;
 import com.zhengshuyun.oktool.core.util.Assert;
 
 import java.util.List;

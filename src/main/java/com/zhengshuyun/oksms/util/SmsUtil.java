@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.util;
+package com.zhengshuyun.oksms.util;
 
 import cn.hutool.v7.core.util.RandomUtil;
-import cn.toint.oksms.aliyun.AliyunSmsClient;
-import cn.toint.oksms.aliyun.model.AliyunSmsClientConfig;
-import cn.toint.oksms.email.MailClient;
-import cn.toint.oksms.email.model.MailClientConfig;
+import com.zhengshuyun.oksms.aliyun.AliyunSmsClient;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsClientConfig;
+import com.zhengshuyun.oksms.email.MailClient;
+import com.zhengshuyun.oksms.email.model.MailClientConfig;
 
 public class SmsUtil {
 

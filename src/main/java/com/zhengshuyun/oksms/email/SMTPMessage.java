@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.email;
+package com.zhengshuyun.oksms.email;
 
 import cn.hutool.v7.core.array.ArrayUtil;
 import cn.hutool.v7.core.date.DateUtil;

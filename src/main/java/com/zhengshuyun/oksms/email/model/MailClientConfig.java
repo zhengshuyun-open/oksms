@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.email.model;
+package com.zhengshuyun.oksms.email.model;
 
 import cn.hutool.v7.extra.mail.MailAccount;
 

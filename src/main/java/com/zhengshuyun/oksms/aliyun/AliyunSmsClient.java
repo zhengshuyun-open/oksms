@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package cn.toint.oksms.aliyun;
+package com.zhengshuyun.oksms.aliyun;
 
-import cn.toint.oksms.aliyun.model.AliyunSmsClientConfig;
-import cn.toint.oksms.aliyun.model.AliyunSmsSendRequest;
-import cn.toint.oksms.aliyun.model.AliyunSmsSendResponse;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsClientConfig;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsSendRequest;
+import com.zhengshuyun.oksms.aliyun.model.AliyunSmsSendResponse;
 import com.zhengshuyun.oktool.core.util.Assert;
 import com.zhengshuyun.oktool.core.util.JacksonUtil;
 import com.aliyun.dysmsapi20170525.Client;
