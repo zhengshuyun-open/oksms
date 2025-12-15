@@ -25,7 +25,7 @@ import cn.toint.oksms.email.model.MailClientConfig;
 import cn.toint.oksms.email.model.MailSendRequest;
 import cn.toint.oksms.email.model.MailSendResponse;
 import cn.toint.oksms.util.SmsUtil;
-import cn.toint.oktool.util.JacksonUtil;
+import com.zhengshuyun.oktool.core.util.JacksonUtil;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;

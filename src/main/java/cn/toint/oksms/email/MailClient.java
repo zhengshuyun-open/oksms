@@ -19,7 +19,7 @@ package cn.toint.oksms.email;
 import cn.toint.oksms.email.model.MailClientConfig;
 import cn.toint.oksms.email.model.MailSendRequest;
 import cn.toint.oksms.email.model.MailSendResponse;
-import cn.toint.oktool.util.Assert;
+import com.zhengshuyun.oktool.core.util.Assert;
 
 import java.util.List;
 import java.util.Optional;
